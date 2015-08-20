@@ -4,10 +4,8 @@ import java.util.Scanner;
 
 public class Cliente {
     public static void main(String[] args) {
-        int uno, dos;
-        boolean error;
-
         Calculos superObjetoMaximo = new Calculos();
+        
         Scanner superTeclado = new Scanner(System.in);
         int ch;
 
@@ -20,8 +18,8 @@ public class Cliente {
 
         switch (ch){
             case 1:
-
-
+                int uno, dos;
+                
                 System.out.println("Ingrese primer N\u00famero:");
                 uno = superTeclado.nextInt();
                 System.out.println("Ingrese segundo N\u00famero: ");
